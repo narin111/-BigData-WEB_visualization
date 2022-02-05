@@ -1,0 +1,38 @@
+/*  style.css 
+    스타일 시트의 주석은 C언어의 멀티라인 주석과 같습니다.
+    이건 참고용으로 그대로 사용하셔도 무방합니다. 
+*/
+
+html, body { max-width:100%; overflow-x:hidden;}
+body{
+	height:100%;
+	width:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	/*
+	font-family: Consolas; font-size:18px; 
+	*/
+}
+table { border-collapse: collapse; }
+xmp { 
+	font-family: Consolas; font-size:18px; 
+}
+.checkbox { width:20px; height:20px; vertical-align:middle; }
+
+a:link { /* font-family: Consolas; font-size:18px; */ text-decoration:none;  color:#333333; }
+a:hover { /* font-family: Consolas; font-size:18px; */  text-decoration:none;  color:#0000FF; font-weight:bold; }
+a:visited { /* font-family: Consolas; font-size:18px; */  text-decoration:none;  color:#333333; }
+
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	max-width:0;
+}
+
+.row { line-height:200%; min-width:100%; min-height:30px; height:auto; padding-top:5px; border:0px solid #FFFFFF; }
+.rowLine { line-height:200%; min-width:100%; min-height:30px; border-bottom:1px dotted #DDDDDD; height:auto; }
+.rowTop { line-height:200%; min-height:30px; border-bottom:1px dotted #DDDDDD; border-top:1px dotted #DDDDDD; height:auto; }
