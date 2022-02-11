@@ -29,7 +29,7 @@
 	</head>
 <body>
     <div class="container">
-
+    정나린
     <?php
         if(isset($mode) and $mode == "insert")
         {

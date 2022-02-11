@@ -10,7 +10,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>전북대 데이터 시각화</title>
+    <title>코로나 데이터 시각화</title>
     <meta name="viewport"
         content="width=device-width, maximum-scale=3.0, user-scalable=yes">
     <link href="style.css" rel="stylesheet" type="text/css"> 
@@ -21,6 +21,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+    <h1>정나린- 코로나 데이터 시각화 실습</h1>
     <div class="container">
     
     
