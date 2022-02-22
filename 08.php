@@ -26,6 +26,18 @@
    <div class="container">
 
     <?php
+        // php.net
+        // 값이 랜덤으로 생성되어 DB로 들어간다.
+
+        $temp = rand(100, 300)/ 10;
+        $hum = rand(300, 700)/ 10;
+
+        echo "temp = $temp, hum=$hum<br>";
+
+        $sql = "INSERT sensor_table (temp, hum, time) VALUES ('$temp', '$hum', now())";
+        $result = mysqli_query($conn, $sql);
+
+
         if(isset($counter))
             $counter = $counter+1;
         else
